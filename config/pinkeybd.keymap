@@ -136,7 +136,7 @@
 &none       &none      &none  &none  &none  &kp ESC    &mkp MCLK       &none       &none      &none     &none
 &none       &none      &none  &none  &none  &none      &none           &mkp RCLK   &mkp MB4   &mkp MB5  &none
 &none       &none      &none  &none  &none  &none      &kp C_PREVIOUS  &kp C_NEXT  &none      &none     &none
-&kp LSHIFT  &kp LCTRL  &none  &none  &none  &mkp LCLK  &none           &none       &kp RCTRL
+&kp LSHIFT  &kp LCTRL  &none  &none  &none  &mkp LCLK  &mkp RCLK       &none       &kp RCTRL
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
